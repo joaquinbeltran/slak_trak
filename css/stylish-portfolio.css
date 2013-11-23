@@ -134,12 +134,24 @@ body {
 
 .services {
   background: #7fbbda;
-  padding: 50px 0;
+  padding: 100px 0;
   color: #ffffff;
 }
 
 .service-item {
   margin-bottom: 15px;
+  text-align: left;
+  width: 142%;
+  margin-left: -8em;
+  margin-top: -2em;
+}
+
+.testimonial1 {
+  float:right;
+}
+
+.mainvid {
+  margin: auto;
 }
 
 i.service-icon {
@@ -161,7 +173,7 @@ i.service-icon {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/callout.jpg) no-repeat center center fixed; 
+  background: url(../img/callout.jpg) no-repeat center bottom fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -193,7 +205,23 @@ i.service-icon {
 
 .call-to-action .btn {
   margin: 10px;
+  float:left;
+  margin-top: -1px;
 }
+
+.button {
+  padding: 5px 16px;
+}
+
+
+.signup {
+  float:left;
+}
+
+.sign {
+  margin-bottom: 1em;
+}
+
 
 /* Map */
 
