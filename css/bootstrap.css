@@ -4319,7 +4319,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   border: 1px solid transparent;
 }
 
@@ -4377,6 +4377,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-collapse {
   max-height: 340px;
+  /* the original padding-right: 15px; padding-left: px; */
   padding-right: 15px;
   padding-left: 15px;
   overflow-x: visible;
